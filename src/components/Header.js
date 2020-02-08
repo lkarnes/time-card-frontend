@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom'
 
 export default function Header(){
     
@@ -10,7 +11,7 @@ export default function Header(){
             <nav className='nav-box'>
                 <p>Home</p>
                 <p>About</p>
-                <p>login</p>
+                <NavLink to='/login'>login</NavLink>
                 <p>register</p>
             </nav>
         </div>
