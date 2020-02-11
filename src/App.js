@@ -5,7 +5,7 @@ import {Route} from 'react-router-dom'
 import Header from './components/Header.js'
 import LandingPage from './components/LandingPage.js';
 import Footer from './components/Footer.js';
-import EmployeeLogin from './components/Login.js';
+import Register from './components/Register.js';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       />
       <Route
       path='/login'
-      component={EmployeeLogin}
+      component={Register}
       />
       <Footer/>
     </div>

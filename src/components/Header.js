@@ -11,8 +11,8 @@ export default function Header(){
             <nav className='nav-box'>
                 <p>Home</p>
                 <p>About</p>
-                <NavLink to='/login'>login</NavLink>
-                <p>register</p>
+                <NavLink to='/login'>Register</NavLink>
+                <p>Login</p>
             </nav>
         </div>
     )
